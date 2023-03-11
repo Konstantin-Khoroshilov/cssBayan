@@ -1,3 +1,3 @@
 # cssBayan
 
-https://konstantin-khoroshilov.github.io/cssBayan/cssBayan/index.html
+https://konstantin-khoroshilov.github.io/cssBayan/index.html
