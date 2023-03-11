@@ -43,19 +43,18 @@
 }
 
 .bayan__title {
-  margin: 0;
+  margin: 0 0 1vh 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   font-size: 2.3rem;
-  line-height: 1.4;
   color: #1C5BD1;
 }
 
 .bayan__icon {
   font-size: 3rem;
-  line-height: 1;
+  line-height: 0;
   transition: transform .1s linear;
 }
 
@@ -86,7 +85,7 @@ input:checked~.bayan__title .bayan__icon {
     display: none;
   }
 
-  .bayans-container:hover .bayan__title {
+  .bayans:hover .bayan__title {
     color: black;
   }
 
@@ -94,7 +93,7 @@ input:checked~.bayan__title .bayan__icon {
     color: #1C5BD1;
   }
 
-  .bayans-container:hover .bayan__icon {
+  .bayans:hover .bayan__icon {
     display: block;
   }
 
@@ -134,7 +133,7 @@ input:checked~.bayan__title .bayan__icon {
 
 @media screen and (min-width: 820px) and (max-width: 1919px) {
   .bayan__icon {
-    font-size: 8rem;
+    font-size: 4.5rem;
   }
 
   .bayan__title {
